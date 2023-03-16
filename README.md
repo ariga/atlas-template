@@ -26,7 +26,7 @@ docker pull arigaio/atlas
 
 Click [here](https://atlasgo.io/getting-started#installation) to read instructions for other platforms.
 
-## Common action
+## Common actions
 
 This repo comes with preconfigured `atlas.hcl` that defines a local MySQL-based dev environment named "local" which
 you can reference using the `--env local` flag.
