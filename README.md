@@ -82,7 +82,7 @@ atlas migrate apply --env local -u "mysql://root:pass@database-url:3306/app"
 
 ### Lint the migration directory
 
-Verify the latest migration file in the directory is safe to apply
+Verify the latest migration file in the directory is safe to apply:
 
 ```bash
 atlas migrate lint --env local --latest 1
