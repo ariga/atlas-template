@@ -63,14 +63,14 @@ table "users" {
 }
 ```
 
-__To learn more about defining database schemas in HCL, check out the [SQL resource](https://atlasgo.io/atlas-schema/sql-resources)
-documentation.__
-
 Automatically generate a migration file:
 
 ```bash
 atlas migrate diff --env local
 ```
+
+_To learn more about defining database schemas in HCL, check out the [SQL resource](https://atlasgo.io/atlas-schema/sql-resources)
+documentation._
 
 ### Apply a migration
 
