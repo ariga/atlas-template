@@ -26,6 +26,16 @@ docker pull arigaio/atlas
 
 Click [here](https://atlasgo.io/getting-started#installation) to read instructions for other platforms.
 
+## Creating a container image
+
+This repo comes with a bootstrapped Dockerfile to package the migrations as a container image.
+
+Build the container image:
+
+```console
+docker build -t atlas:local .
+```
+
 ## Common actions
 
 This repo comes with preconfigured `atlas.hcl` that defines a local MySQL-based dev environment named "local" which
