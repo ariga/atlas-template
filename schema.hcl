@@ -9,11 +9,9 @@ table "users" {
   }
   column "user_name" {
     type   = varchar(255)
-    unique = true
   }
   column "email" {
     type   = varchar(255)
-    unique = true
   }
   primary_key {
     columns = [column.id]
