@@ -5,4 +5,4 @@ CREATE TABLE posts (
   title varchar(255) NOT NULL,
   body text NOT NULL,
   PRIMARY KEY (id)
-)
+);

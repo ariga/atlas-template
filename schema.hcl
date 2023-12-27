@@ -35,4 +35,10 @@ table "posts" {
   primary_key {
     columns = [column.id]
   }
+  foreign_key "post_author" {
+    columns = [column.user_id]
+    ref_columns = [table.users.column.id]
+    on_delete = CASCADE
+    on_update = NO_ACTION
+  }
 }
